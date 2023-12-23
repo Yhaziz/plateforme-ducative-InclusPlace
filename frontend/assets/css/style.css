@@ -1,0 +1,411 @@
+
+
+  .container .title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+  }
+  
+  .container .title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    border-radius: 5px;
+  }
+  
+  .container .button {
+    display: inline-block;
+    margin: 8px;
+  }
+  
+
+#parent {
+  background-color: #f56363;
+}
+
+
+#avs {
+  background-color: #f0c14d;
+}
+
+
+#teacher {
+  background-color: #36538d;
+}
+
+
+#doctor {
+  background-color: #368738;
+}
+
+
+.container .button input {
+  height: 45px;
+  width: 150px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.container .button input:hover {
+
+  background: linear-gradient(-135deg, #368738, #36538d  , #f0c14d ,#f56363 );
+}
+
+  
+
+  @media (max-width: 584px) {
+    .container .button {
+      display: block; 
+      width: 100%; 
+    }
+    .container .button input {
+      width: 100%; 
+      margin-bottom: 10px; 
+    }
+  }
+  
+  /* error captcha */
+  #error-message {
+    color: red;
+    font-size: 15px;
+    display: inline;
+    white-space: nowrap;
+  }
+  
+  
+  .error {
+    border: 1px solid red;
+  }
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    display: inline;
+    
+  }
+  
+  /* page abonnement pr */
+  h3 {
+    margin: 0;
+  }
+  a:hover,
+  a:focus {
+    text-decoration: none !important;
+    outline: none !important;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .pricing-table{
+    background: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+    position: relative;
+    margin-bottom:50px;
+  }
+  .pricing-table .price-value{
+    color: #EF3E36;
+    margin-bottom: 10px;
+    transition:all 0.3s ease 0s;
+  }
+  .pricing-table.blue .price-value{
+    color: #1CA4B9;
+  }
+  .pricing-table.green .price-value{
+    color: #E4AC1E;
+  }
+  .pricing-table .currency {
+    display: inline-block;
+    font-size: 30px;
+    vertical-align: top;
+    margin-top: 8px;
+  }
+  .price-value .amount {
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .pricing-content ul {
+    color: #6F6F6F;
+    line-height: 50px;
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+  .pricing-content ul li{
+    border-bottom:2px dashed rgba(0,0,0,0.1);
+  }
+  .pricing-content ul li:last-child{
+    border-bottom:none;
+  }
+  .Sign-Up a{
+    display: inline-block;
+    padding: 10px 25px;
+    background: #EF3E36;
+    color:#fff !important;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    overflow: hidden;
+  }
+  .pricing-table.blue .Sign-Up a{
+    background: #1CA4B9;
+  }
+  .pricing-table.green .Sign-Up a{
+    background: #E4AC1E;
+  }
+  .Sign-Up a:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    display: inline-block;
+    background: linear-gradient(to bottom,rgba(255,255,255,0) 0,rgba(255,255,255,1) 50%,rgba(255,255,255,0) 100%);
+    transform: translate(0,100%);
+    transition: all .6s ease-in-out;
+    opacity: 0;
+  }
+  .Sign-Up a:hover:before {
+    opacity: 1;
+    transform: translate( 0,-100%);
+  }
+  @media screen and (max-width:990px){
+    .pricing-table{
+        margin-bottom: 30px;
+    }
+  }
+  
+  /* show and hide password */
+
+  .form-group {
+    position: relative;
+  }
+  
+  .password-input {
+    padding-right: 30px; /* Add space for the eye icon */
+  }
+  
+  .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+
+  .toggle-password .fa-eye-slash {
+    display: none;
+  }
+  
+  
+  .password-visible .fa-eye {
+    display: none;
+  }
+  
+  .password-visible .fa-eye-slash {
+    display: block;
+  }
+
+
+
+  .code-container {
+  background-color: #fff;
+  padding: 20px;
+  align-items: center;
+  max-width: 1000px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 5px 5px 10px rgba(100, 101, 100, 0.5);
+}
+
+.code {
+  font-size: 35px;
+  padding: 0;
+  width: 50x;
+  height: 80px;
+  text-align: center;
+  border: 1px solid #eee;
+  margin: 1%;
+  font-weight: 300;
+  border-radius: 5px;
+}
+.code::-webkit-outer-spin-button,
+.code::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.code:valid {
+  border-color: #3498db;
+  box-shadow: 0 5px 5px -2px rgba(0, 0, 0, 0.3);
+}
+.info {
+  background-color: #eee;
+  color: #777;
+  display: inline-block;
+  max-width: 300px;
+  padding: 5px;
+  margin-top: 10px;
+  line-height: 20px;
+  border-radius: 5px;
+}
+@media (max-width: 500px) {
+  .code-container {
+    flex-wrap: wrap;
+  }
+  .code {
+    font-size: 20px;
+    height: 60px;
+    max-width: 70px;
+  }
+}
+
+/* verif css **/
+
+.form {
+  position: relative;
+  width: 100%;
+  max-width: 1700px;
+  border-radius: 12px;
+  box-shadow: -3px 3px 10px -5px rgba(0, 0, 0, 0.2);
+  padding: 30px 30px;
+  
+}
+.form h2 {
+  font-size: 25px;
+  font-weight: 700;
+}
+.form p {
+  font-size: 15px;
+  padding-bottom: 8px;
+}
+
+
+
+.form form .error-text {
+  display: none;
+  color: #851923;
+  padding: 4px 6px;
+  text-align: center;
+  border-radius: 4px;
+  background: #ffe3e5;
+  border: 1px solid #dfa5ab;
+  margin-bottom: 8px;
+}
+.form .grid-details {
+  display: flex;
+}
+.form .grid-details .input:first-child {
+  margin-right: 8px;
+  width: 100%;
+}
+.form .grid-details .input:last-child {
+  margin-left: 8px;
+  width: 100%;
+}
+.form form .input {
+  display: flex;
+  margin-bottom: 6px;
+  flex-direction: column;
+}
+.form form .input input {
+  height: 40px;
+  width: 100%;
+  font-size: 14px;
+  padding: 0 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+.form form .input input:focus,
+.form form .input input:valid {
+  border: 2px solid #198754;
+  transition: 0.1s ease;
+  outline: none;
+}
+.form form input.button {
+  height: 45px;
+  border: none;
+  color: #f2f3f7;
+  width: 60%;
+  font-size: 17px;
+  background: #198754;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 13px;
+  border: 2px solid #198754;
+}
+
+.form .link {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 17px;
+}
+.form .link a {
+  color: #006692;
+}
+.form .link a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* verify account style start */
+.fields_input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0;
+}
+.otp_field {
+  border-radius: 5px;
+  font-size: 60px;
+  height: 100px;
+  width: 100px;
+  border: 3px solid #cacaca;
+  margin: 1%;
+  text-align: center;
+  font-weight: 600;
+  outline: none;
+}
+.otp_field::-webkit-inner-spin-button,
+.otp_field::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.otp_field:valid {
+  border-color: #3095d8;
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.25);
+}
+ .form form input.resend_btn {
+  float: right;
+  border: none;
+  background: #f2f3f7;
+  color: #006692;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid #2983aa;
+} 
+
+@media only screen and (max-width: 455px) {
+  .otp_field {
+    font-size: 55px;
+    height: 80px;
+    width: 80px;
+  }
+}
+

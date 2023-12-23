@@ -1,0 +1,31 @@
+/*color header*/
+.skin-blue .main-header .navbar {
+    background-color: #92278f;
+}
+
+
+
+
+/*color header logo*/
+.skin-blue .main-header .logo {
+    background-color: #92278f;
+    color: #fff;
+    border-bottom: 0 solid transparent;
+}
+
+/*color user profile*/
+.skin-blue .main-header li.user-header {
+    background-color: #92278f;
+}
+
+/*color info name*/
+.bg-aqua-active, .modal-info .modal-header, .modal-info .modal-footer {
+    background-color: #92278f !important;
+}
+
+/*color alert info*/
+.bg-aqua, .callout.callout-info, .alert-info, .label-info, .modal-info .modal-body {
+    background-color: #92278f !important;
+}
+
+
