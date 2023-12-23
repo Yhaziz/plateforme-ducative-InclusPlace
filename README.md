@@ -7,8 +7,35 @@ INCLUSPACE est un espace numérique qui crée un lien entre le parent, l'enseign
 
 
 ##Login Backend
-![Alt text]([https://github.com/Yhaziz/plateforme-educative-InclusPlace/blob/e87d9c3c486db685a28360b900b7fade05676cec/login%20backend.png](https://github.com/Yhaziz/plateforme-educative-InclusPlace/blob/cee556316b0a96a7a47fd8ebdcb462fe1191a77b/login%20back.png))
+![Alt text]([https://github.com/Yhaziz/plateforme-educative-InclusPlace/blob/cee556316b0a96a7a47fd8ebdcb462fe1191a77b/login%20back.png))
 
 
 ##Backend
-![Alt text](https://github.com/Yhaziz/plateforme-educative-InclusPlace/blob/e87d9c3c486db685a28360b900b7fade05676cec/login%20backend.png)
+![Alt text](https://github.com/Yhaziz/plateforme-educative-InclusPlace/blob/254eee1ac9335d29083783c2743af1f471b845e3/backend.png)
+
+
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- Bootstrap
+- JavaScript
+- Database (sql)
+- PHP
+- ajax
+- jquery
+- phpmailer
+
+
+## License
+
+
+The project is licensed under the [Yahyaoui Mohamed Aziz](https://www.linkedin.com/in/med-aziz/).
+
+## Contact
+
+If you have any questions, suggestions, or issues, please feel free to reach out to us:
+
+- Name: [Yahyaoui Mohamed Aziz]
+- Email: [Yahyaouimohamedaziz2001@gmail.com]
